@@ -12,4 +12,9 @@ Topic visualization using pyLDAvis:
 
 
 #### Technical Outline  
-The script 'gensim_study.py' prepares unstructured text data to generate lists of tokens ('documents') that feed a Latent Dirichtlet Model (LDA) to generate the main topics in the body of text. The pyLDAvis Library is then used to visualize the topics. 
+The script 'gensim_study.py' prepares unstructured text data to generate lists of tokens ('documents') that feed a Latent Dirichtlet Model (LDA) and then ouputs the main topics in the body of text.
+ * Step 1: The function tokenize() and cleanup() uses the statistical model of the Spacy Python library for part of speech tagging (sentences, lemma, stopwords...). 
+ * Step 2: A Gensim Dictionary is generated 
+ * Step 3: LdaModel is updated from the word vectors 
+ * Step 4: The pyLDAvis Library is then used to visualize the topics
+ 
