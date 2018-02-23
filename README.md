@@ -7,8 +7,7 @@ Nuages is the topic modeling project using Health Forum posts. People suffering 
 
 #### Output 
 
-
-
+![topic_modelling](https://user-images.githubusercontent.com/25650135/36598654-2d71a9bc-18ad-11e8-91c4-70ef709f1cdd.PNG)
 
 
 #### Technical Outline  
